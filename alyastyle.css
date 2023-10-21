@@ -137,6 +137,7 @@ nav.sticky .nav-content ul li a :hover{
 }
 
 .content h1 {
+    width : 100%;
     margin-top: 45px;
     color: #E0E0D5;
     text-align: center;
@@ -144,6 +145,7 @@ nav.sticky .nav-content ul li a :hover{
     font-size: 90px;
     letter-spacing: 14px;
 }
+
 
 .btn_1 button {
     margin-top: 140px;
@@ -161,7 +163,6 @@ nav.sticky .nav-content ul li a :hover{
 .profile {
     width: 100%;
     height: 100%;
-    background-color: #BE9A6D;
 }
 
 .img_profile img {
@@ -202,7 +203,6 @@ td {
 .activity {
     height: auto;
     width: 100%;
-    background-color: #DAC2C4;
 }
 
 .activity h1 {
@@ -266,9 +266,6 @@ td {
     width: 200px;
     height: 270px;
     object-fit: cover;
-
-
-
 }
 
 .img_back {
@@ -292,9 +289,8 @@ td {
 
 
 .funfact {
+    height: auto;
     width: 100%;
-    height: 100%;
-    background-color: #C48B7A;
     background-image: url('mencium piring-removebg-preview.png');
     background-repeat: no-repeat;
     background-position: 135% center;
@@ -337,7 +333,6 @@ td {
 .favorite {
     width: 100%;
     height: 100%;
-    background-color: #CCDCE6;
 }
 
 .favorite h1 {
@@ -366,7 +361,6 @@ td {
 .card_content5 img {
     width: 350px;
     height: 450px;
-
     object-fit: cover;
 }
 
@@ -380,7 +374,7 @@ td {
     overflow: hidden;
     width: 100%;
     height: 100vh;
-    background-image: url('assets/image/bg contact me.jpg');
+    background-image: url('bg contact me.jpg');
     background-size: cover;
     background-position: 0px -130px;
     background-repeat: no-repeat;
@@ -392,7 +386,7 @@ td {
 
 .social_media a img {
     width: 100px;
-    margin: 0px 10px 0px 60px;
+    margin: 0px 10px 0px 50px;
 }
 
 .content6 {
