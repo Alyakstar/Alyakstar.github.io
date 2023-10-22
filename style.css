@@ -456,7 +456,6 @@ td {
 
 marquee {
     position: absolute;
-    behavior: alternate;
 }
 
 footer {
