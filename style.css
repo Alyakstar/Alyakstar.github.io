@@ -454,11 +454,8 @@ td {
     background-color: white;
 }
 
-marquee {
-    position: absolute;
-}
-
 footer {
-    text-align: center;
+    text-align: end;
+    justify-content: flex-end;
     color: black;
-  }
+}
