@@ -35,16 +35,13 @@ window.addEventListener("scroll", ()=>{
   
     document.getElementById("submit_email").addEventListener("click", function() {
       var emailInput = document.getElementById("input_email").value;
-      let errorMessage = "";
-      if (!emailInput.value) {
-        errorMessage += "Email harus diisi.\n";
-      } if (emailInput !== "" && emailInput.endsWith("@gmail.com")) {
+  
+      if (emailInput !== "" && emailInput.endsWith("@gmail.com")) {
         window.location.href = "https://id.linkedin.com/in/alya-callysta-nugraha-11ba78258";
       } else {
-        alert("Masukkan alamat email yang valid (tidak boleh), berakhir dengan @gmail.com.");
+        alert("Masukkan alamat email yang valid, yang berakhir dengan @gmail.com.");
       }
-
-      
-    })
+    });
   });
+
   
