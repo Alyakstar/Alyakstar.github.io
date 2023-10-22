@@ -45,7 +45,7 @@ window.addEventListener("scroll", ()=>{
       if (emailInput !== "" && emailInput.endsWith("@gmail.com")) {
         window.location.href = "https://id.linkedin.com/in/alya-callysta-nugraha-11ba78258";
       } else {
-        alert("Masukkan alamat email yang valid, yang berakhir dengan @gmail.com.");
+        alert("Masukkan alamat email yang valid (tidak boleh kosong), berakhir dengan @gmail.com.");
       }
 
       
